@@ -1,0 +1,62 @@
+body    {
+    background-color: rgb(20, 20, 20);  
+}
+
+.nav-personalizada{
+    background-color: #000000 !important;
+}
+
+/* enlaces del menú */
+.nav-personalizada .navbar-brand,
+.nav-personalizada .nav-link {
+    color: #ccff00 !important;
+}
+
+/* color de hover */
+.nav-personalizada .nav-link:hover,
+.nav-personalizada .nav-link.active,
+.nav-personalizada .dropdown-item:hover {
+    color: #ffffff !important; /* Cambia a blanco al pasar el mouse */
+}
+
+/* Estilo para menús desplegables */
+.nav-personalizada .dropdown-menu {
+    background-color: #000000;
+    border: 1px solid #ccff00;
+}
+
+.nav-personalizada .dropdown-item {
+    color: #ccff00;
+}
+
+/* Menu hamburguesa */
+.nav-personalizada .navbar-toggler {
+    border-color: #ccff00 !important;
+}
+
+.nav-personalizada .navbar-toggler-icon {
+    filter: invert(87%) sepia(36%) saturate(1465%) hue-rotate(24deg) brightness(108%) contrast(108%);
+}
+
+.nav-logo{
+    height: 120px;
+    width: auto;
+}
+
+.btn-personalizado{
+    background-color: #ccff00 !important;
+    color: #000000 !important;
+    border: 1px solid #ccff00 !important;
+}
+
+.icono-verde{
+    font-size: 1.5rem !important;
+    color: #ccff00 !important;
+    margin-right: 10px !important;
+}
+
+.icono-blanco{
+    font-size: 1.5rem !important;
+    color: #ffffff !important;
+    margin-right: 10px !important;
+}
