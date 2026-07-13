@@ -1,0 +1,33 @@
+footer{
+    border-top: 1px solid rgba(255,255,255,.08);
+} 
+/* la linea de arriba del footer , lo que separa del contenido */
+
+footer p{
+    color: #f5f5f5;
+    font-size: 15px;
+}
+/* todas las etiquetas con p tendran ese formato */
+
+footer h5{
+    font-weight: 600;
+}
+/*  cosas con h5 se les aplicara un bold */
+.social-icon{
+    width:55px;
+    height:55px;
+    border:2px solid #D4FF00;
+    border-radius:12px;
+    display:inline-flex;
+    justify-content:center;
+    align-items:center;
+    color:#D4FF00;
+    text-decoration:none;
+    font-size:26px;
+    transition:.3s;
+}
+
+.social-icon:hover{
+    background:#D4FF00;
+    color:#0B0F0F;
+}
