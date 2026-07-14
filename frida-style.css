@@ -1,0 +1,74 @@
+body {
+  background-color:#0F172A;
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  text-align: center;
+  padding: 3rem 1rem 1rem;
+  color: white;
+}
+
+main {
+  text-align: center;
+  padding: 3rem 1rem 1rem;
+  color: white;
+}
+
+
+/* Tarjetas de testimonios*/
+.testimonial-card {
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 1px;
+  padding: 1.75px;
+  height: 100%;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.35);
+}
+
+.card-clasificacion {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  color: whitesmoke;
+  margin: 0;
+  font-size: 0.8rem;
+}
+
+.card-deporte {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  color: white;
+  margin: 0;
+  font-size: 0.8rem;
+}
+
+/* Tarjetas de carrito*/
+.card-carrito .card {
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 1px;
+  padding: 15px;
+  height: 100%;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.35);
+}
+
+/* boton pagar */
+.btn-primary {
+  background-color: #CCFF00;
+  color: black;
+  font-size: 30px;
+  text-align: center;
+}
+
+/* Estrellas */
+.stars {
+  color: #CCFF00;
+  font-size: 30px;
+}
+
