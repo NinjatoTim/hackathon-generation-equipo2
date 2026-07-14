@@ -18,3 +18,4 @@ const miCarrusel = new bootstrap.Carousel(elementoCarrusel, {
 
 });
 
+console.log("Hola")
