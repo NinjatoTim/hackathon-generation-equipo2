@@ -29,5 +29,5 @@ En HydroFlow encontrarás una amplia variedad de accesorios y equipamiento para 
 - Arturo Benjamin Rodriguez Moran.
 - Brando Essaw Cortez Beltrán.
 - Eva Fuentes.
-- Frida Luna.
+- Frida Luna Barón.
 - Luis Velázquez C.
