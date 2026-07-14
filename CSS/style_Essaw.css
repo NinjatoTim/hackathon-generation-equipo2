@@ -1,0 +1,32 @@
+
+/* ANCHO DEL CONTAINER QUE LE DARA TAMBIEN ANCHO AL CARRUSEL*/
+.container-carrusel {
+    width: 70%;      
+    margin: 0 auto;  
+}
+
+/* COLORES Y FONDO*/
+.card.bg-dark {
+    background-color: #1a1d20 !important; 
+}
+
+/* COLORES FOSFO FOSFO PARA PRECIO Y TEXTO*/
+.text-neon {
+    color: #ccff00; 
+}
+
+
+.bg-warning.text-neon-badge {
+    background-color: #ccff00 !important; /* APRENDÍ A USAR EL IMPORTARN QUE LE DA PRIORIDAD AL CSS SOBRE EL BOOTSTRAP*/
+    color: #000 !important; 
+}
+
+/* hice que toda la tarjeta se eleve un poco y proyecte sombra al pasar el cursor BIEN ÉPICO*/
+.card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px); /* Sube la tarjeta 5 pixeles */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5); /* Le da una sombra oscura suave abajo */
+}
