@@ -57,14 +57,36 @@ main {
   text-align: center;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.35);
 }
+/* reespuestas faq*/
+.faq-respuesta {
+  background-color: black; 
+  color: white;            
+  border: 1px solid #333;  
+  border-radius: 4px;              
+  padding: 15px;                     
+}
 
-/* boton pagar */
+
+
+/* botones */
 .btn-primary {
   background-color: #CCFF00;
   color: black;
-  font-size: 30px;
+  font-size: 20px;
   text-align: center;
 }
+
+/* Asegura que el botón mantenga sus colores al pasar el mouse, hacer clic o estar activo */
+.btn-primary:hover, 
+.btn-primary:focus, 
+.btn-primary:active, 
+.btn-primary:focus-visible {
+  background-color: #CCFF00 !important;
+  color: black !important;
+  border: none !important;
+  box-shadow: none !important; 
+}
+
 
 /* Estrellas */
 .stars {
