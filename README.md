@@ -25,7 +25,7 @@ En HydroFlow encontrarás una amplia variedad de accesorios y equipamiento para 
 
 ## 👥 Integrantes
 
-- Andrea Elizabeth Gómez Sánchez.
+- Andrea Elizabeth Gómez Sánchez. 
 - Arturo Benjamin Rodriguez Moran.
 - Brando Essaw Cortez Beltrán.
 - Eva Fuentes.
