@@ -27,7 +27,7 @@ En HydroFlow encontrarás una amplia variedad de accesorios y equipamiento para 
 
 - Andrea Elizabeth Gómez Sánchez.
 - Arturo Benjamin Rodriguez Moran.
-- Brandon Essaw Cortez Beltrán.
+- Brando Essaw Cortez Beltrán.
 - Eva Fuentes.
 - Frida Luna.
 - Luis Velázquez C.
