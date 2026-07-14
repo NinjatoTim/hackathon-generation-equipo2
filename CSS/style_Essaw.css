@@ -2,7 +2,15 @@
 /* ANCHO DEL CONTAINER QUE LE DARA TAMBIEN ANCHO AL CARRUSEL*/
 .container-carrusel {
     width: 70%;      
-    margin: 0 auto;  
+    margin: 20px auto;  
+}
+
+.carousel-inner {
+    padding: 10px;    
+}
+
+.carousel-item {
+    padding: 0 15px;
 }
 
 /* COLORES Y FONDO*/
@@ -24,9 +32,36 @@
 /* hice que toda la tarjeta se eleve un poco y proyecte sombra al pasar el cursor BIEN ÉPICO*/
 .card {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+    will-change: transform;
+    
+
 }
 
 .card:hover {
     transform: translateY(-5px); /* Sube la tarjeta 5 pixeles */
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5); /* Le da una sombra oscura suave abajo */
+    box-shadow: 0 10px 20px rgba(15, 15, 15, 0.3); /* Le da una sombra oscura suave abajo */
+}
+
+.custom-arrow{
+    width:60px;
+    height:60px;
+
+    background-color:#1a1d20;
+    border-radius:50%;
+
+    padding:15px;
+
+    transition:.3s;
+}
+
+.custom-arrow:hover{
+    background-color:#ccff00;
+}
+
+.carousel-control-prev{
+    left:-150px;
+}
+
+.carousel-control-next{
+    right:-150px;
 }

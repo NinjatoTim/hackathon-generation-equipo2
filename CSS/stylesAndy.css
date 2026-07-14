@@ -83,14 +83,29 @@ body {
     gap: 10px;
 }
 
-button {
+
+.bannerButtons a,
+.bannerButtons button {
     margin: 0;
-    padding: 10px;
-    border: none;
+    padding: 10px 20px;
     border-radius: 5px;
     font-family: "Hanken Grotesk", sans-serif;
     cursor: pointer;
+
+    text-decoration: none;   /* Quita el subrayado del <a> */
+    display: inline-flex;    /* Hace que se comporte como botón */
+    justify-content: center;
+    align-items: center;
+
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
+
+.bannerButtons a:hover,
+.bannerButtons button:hover {
+    transform: scale(1.08);
+    box-shadow: 0 0 12px rgba(204, 255, 0, 0.45);
+}
+
 
 /* Botón banner izquierdo */
 

@@ -1,5 +1,6 @@
 footer{
     border-top: 1px solid rgba(255,255,255,.08);
+    
 } 
 /* la linea de arriba del footer , lo que separa del contenido */
 
@@ -30,4 +31,9 @@ footer h5{
 .social-icon:hover{
     background:#D4FF00;
     color:#0B0F0F;
+}
+
+footer p.small {
+    position: relative;
+    top: -8px;
 }
